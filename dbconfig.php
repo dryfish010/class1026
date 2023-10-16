@@ -8,6 +8,6 @@ $pass = '12345'; //登入DB用的DB 密碼
 $dbName = 'test'; //使用的資料庫名稱
 /* $db 即為未來執行SQL指令所使用的物件 */
 $db = mysqli_connect($host, $user, $pass, $dbName) or die('Error with MySQL connection'); //跟MyMSQL連線並登入
-//b
+//c
 mysqli_query($db,"SET NAMES utf8"); //設定編碼為 unicode utf8
 ?>
